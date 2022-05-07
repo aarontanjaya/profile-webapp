@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@react-three/fiber": "^7.0.27",
+    "framer-motion": "^6.3.3",
+    "framer-motion-3d": "^6.3.3",
     "gatsby": "^4.13.1",
     "gatsby-plugin-gatsby-cloud": "^4.13.0",
     "gatsby-plugin-image": "^2.13.0",
@@ -17,9 +20,18 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "three": "^0.140.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "gatsby-plugin-eslint": "^4.0.2",
     "prettier": "^2.6.2"
   },
   "keywords": [
